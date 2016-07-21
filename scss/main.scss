@@ -24,7 +24,7 @@
     bottom: 50%;
     text-align: center;
     font-family: $main-font;
-    font-size: 2em;
+    font-size: 2rem;
     color: $image-text-color;
   }
 }
@@ -105,12 +105,9 @@
 }
 
 
-.quote-content-block {
+.quote-box {
   display: block;
   width: 100%;
-  blockquote {
-    display: block;
-    width: 100%;
-    background-color: lightgrey;
-  }
+  background-color: lightgrey;
+  margin-top: 300px;
 }
