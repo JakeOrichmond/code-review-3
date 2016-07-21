@@ -3,3 +3,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@mixin blocks {
+  color: $teal-font;
+  width:150px;
+}
