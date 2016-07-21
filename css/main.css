@@ -20,7 +20,11 @@ body {
   box-sizing: border-box;
   background-color: white; }
 
+.nav-wrapper {
+  box-sizing: border-box; }
+
 .logo {
+  display: inline-block;
   float: left;
   font-family: "Open Sans"; }
 
@@ -38,9 +42,26 @@ ul {
   ul li {
     font-family: "Open Sans";
     display: inline;
-    padding: 20px; }
+    padding: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase; }
   ul li.apply {
     color: #00b3b4;
     font-family: "Open Sans Bold"; }
+
+.main-image-container {
+  position: absolute;
+  top: 120px; }
+  .main-image-container .main-image {
+    position: relative;
+    width: 100%;
+    height: 80%; }
+  .main-image-container .main-image-text {
+    position: relative;
+    display: block;
+    right: auto;
+    left: auto;
+    bottom: 420px;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

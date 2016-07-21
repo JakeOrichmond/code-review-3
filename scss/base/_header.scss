@@ -1,0 +1,36 @@
+// === Navbar ===
+
+.nav-wrapper {
+  box-sizing: border-box;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  font-family: $main-font;
+}
+
+span.logo1 {
+  color: $teal-font;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+  li {
+    font-family: $main-font;
+    display: inline;
+    padding: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    }
+    li.apply {
+      color: $teal-font;
+      font-family: $bold-main-font;
+    }
+  }
