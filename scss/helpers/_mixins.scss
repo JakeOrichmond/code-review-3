@@ -8,3 +8,7 @@
   color: $teal-font;
   width:150px;
 }
+
+@mixin gradient($direction, $color) {
+  @include linear-gradient(to $direction, $color 40%, lighten($color, 20%) 100%);
+}

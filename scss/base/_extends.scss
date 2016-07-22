@@ -1,0 +1,7 @@
+.content-box-text {
+  @extend .content-box-title;
+  &:hover {
+    cursor: pointer;
+    color: black;
+  }
+}

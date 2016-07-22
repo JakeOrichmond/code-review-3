@@ -18,7 +18,9 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: white; }
+  background-color: #ffa5d2;
+  background-image: -webkit-linear-gradient(bottom, #ffa5d2 40%, white 100%);
+  background-image: linear-gradient(to top,#ffa5d2 40%, white 100%); }
 
 .main-image-container {
   position: relative; }
@@ -47,7 +49,7 @@ body {
     text-align: center;
     font-family: "Open Sans";
     font-size: 3em; }
-  .wide-content-box p {
+  .wide-content-box .content-box-text {
     font-family: "Open Sans"; }
 
 .content1 {
@@ -70,7 +72,7 @@ body {
     color: #00b3b4;
     width: 150px;
     color: black; }
-  .content-block1 .content-box-title {
+  .content-block1 .content-box-title, .content-block1 .content-box-text {
     color: #00b3b4;
     width: 150px; }
 
@@ -89,7 +91,7 @@ body {
     color: #00b3b4;
     width: 150px;
     color: black; }
-  .content-block2 .content-box-title {
+  .content-block2 .content-box-title, .content-block2 .content-box-text {
     color: #00b3b4;
     width: 150px; }
 
@@ -108,7 +110,7 @@ body {
     color: #00b3b4;
     width: 150px;
     color: black; }
-  .content-block3 .content-box-title {
+  .content-block3 .content-box-title, .content-block3 .content-box-text {
     color: #00b3b4;
     width: 150px; }
 
@@ -128,7 +130,7 @@ body {
     color: #00b3b4;
     width: 150px;
     color: black; }
-  .content-block4 .content-box-title {
+  .content-block4 .content-box-title, .content-block4 .content-box-text {
     color: #00b3b4;
     width: 150px; }
 
@@ -224,5 +226,9 @@ ul {
 @media only screen and (max-width: 989px) {
   .companies {
     display: none; } }
+
+.content-box-text:hover {
+  cursor: pointer;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
